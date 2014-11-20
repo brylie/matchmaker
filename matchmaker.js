@@ -9,7 +9,7 @@ function getRandomInt(min, max) {
 }
 
 if(Meteor.isClient) {
-	Template.people.helpers({
+	Template.match.helpers({
 		'person': function() {
 			// Get array of people
 			var people = People.find().fetch();
