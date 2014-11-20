@@ -1,4 +1,4 @@
-People = new Mongo.Collection('players');
+People = new Mongo.Collection('people');
 Food = new Mongo.Collection('food');
 
 // Returns a random integer between min (included) and max (excluded)
