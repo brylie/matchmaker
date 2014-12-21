@@ -6,9 +6,6 @@ body {
 }.hero-tagline {
     font-size: 200%;
     word-wrap: normal;
-    font-family: 'BinzMedium';
-    font-weight: normal;
-    font-style: normal;
 }
 
 .additional-link {
@@ -18,9 +15,6 @@ body {
     font-size: 200%;
     text-transform: none;
     word-wrap: normal;
-    font-family: 'BinzMedium';
-    font-weight: normal;
-    font-style: normal;
 }
 @media (min-width: 48em) {
     body {
