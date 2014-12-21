@@ -6,12 +6,8 @@
 </template>
 
 <template name="addQuery">
-    {{#autoForm collection="Queries" id="insertQueryForm" type="insert"}}
-    <fieldset>
-        <legend>Add a Query</legend>
-        {{> afQuickField name='query'}}
-        <button type="submit" class="btn btn-primary">Add Query</button>
-    </fieldset>
-
-    {{/ autoForm }}
+    {{> autoformModals}}
+    {{#afModal class="btn btn-primary" collection="Queries" operation="insert"}}
+    Add a new Query
+    {{/afModal}}
 </template>

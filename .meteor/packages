@@ -11,6 +11,7 @@ iron:router
 accounts-base
 accounts-ui
 accounts-password
-mrt:purecss
 aldeed:autoform
 aldeed:collection2
+yogiben:autoform-modals
+ian:bootstrap-3
