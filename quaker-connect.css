@@ -3,18 +3,21 @@ body {
     margin: auto;
 }
 
-}.hero-tagline {
-    font-size: 200%;
+p {
+    font-size: 1.25em;
+}
+
+.hero-tagline {
+    font-size: 150%;
     word-wrap: normal;
 }
 
 .additional-link {
     padding:1em !important;
 }
-.pure-menu .pure-menu-heading {
+.pure-menu-heading {
     font-size: 200%;
-    text-transform: none;
-    word-wrap: normal;
+    text-transform: none !important;
 }
 @media (min-width: 48em) {
     body {
@@ -23,6 +26,10 @@ body {
     }
     .hero-tagline {
         font-size: 200%;
+    }
+    .pure-menu-heading {
+        font-size: 200%;
+        text-transform: none !important;
     }
 }
 

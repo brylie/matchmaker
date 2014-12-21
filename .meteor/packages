@@ -11,5 +11,4 @@ iron:router
 accounts-base
 accounts-ui
 accounts-password
-useraccounts:ratchet
 mrt:purecss

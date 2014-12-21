@@ -12,7 +12,6 @@ blaze-tools@1.0.2
 boilerplate-generator@1.0.2
 callback-hook@1.0.2
 check@1.0.3
-coffeescript@1.0.5
 ddp@1.0.13
 deps@1.0.6
 ejson@1.0.5
@@ -59,7 +58,6 @@ routepolicy@1.0.3
 service-configuration@1.0.3
 session@1.0.5
 sha@1.0.2
-softwarerero:accounts-t9n@1.0.4
 spacebars@1.0.4
 spacebars-compiler@1.0.4
 srp@1.0.2
@@ -68,7 +66,5 @@ tracker@1.0.4
 ui@1.0.5
 underscore@1.0.2
 url@1.0.3
-useraccounts:core@1.4.0
-useraccounts:ratchet@1.4.0
 webapp@1.1.5
 webapp-hashing@1.0.2
