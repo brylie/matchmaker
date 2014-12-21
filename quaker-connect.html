@@ -30,3 +30,20 @@
 <template name="me">
     <h1>Hi!</h1>
 </template>
+
+<template name="queries">
+    {{# each queries }}
+    {{> query }}
+    {{/ each }}
+</template>
+
+<template name="query">
+    <h2>{{ query }}</h2>
+    {{# each responses }}
+        {{> response }}
+    {{/ each}}
+</template>
+
+<template name="response">
+
+</template>
