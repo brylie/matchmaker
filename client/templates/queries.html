@@ -1,8 +1,10 @@
 <template name="queries">
     {{> addQuery }}
-    {{# each queries }}
-    {{> query }}
-    {{/ each }}
+    <ul>
+        {{# each queries }}
+        <li><a href="/query/{{ _id }}">{{ query }}</a></li>
+        {{/ each }}
+    </ul>
 </template>
 
 <template name="addQuery">
