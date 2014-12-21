@@ -8,3 +8,8 @@ meteor-platform
 autopublish
 insecure
 iron:router
+accounts-base
+accounts-ui
+accounts-password
+axw:ratchet
+useraccounts:ratchet

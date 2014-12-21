@@ -1,1 +1,7 @@
 /* CSS declarations go here */
+#login-email {
+    max-width: 80%;
+}
+#login-password {
+    max-width: 70%;
+}
