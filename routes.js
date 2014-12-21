@@ -8,6 +8,16 @@ Router.route('/', function () {
 
 Router.route('/me');
 
+Router.route('/queries');
+
+Router.route('/query/:_id', function () {
+  this.render('query', {
+    data: function () {
+      return Queries.findOne({_id: this.params._id});
+    }
+  });
+});
+
 //// Example route
 //Router.route('/', function () {
 //  this.render('hello', {
