@@ -6,6 +6,9 @@ Responses.attachSchema(new SimpleSchema({
     },
     author: {
         type: String,
-        label: "Author"
+        label: "Author",
+        autoValue: function () {
+            return Meteor.userId();
+        }
     }
 }));

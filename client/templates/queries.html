@@ -6,8 +6,5 @@
 </template>
 
 <template name="addQuery">
-    {{> autoformModals}}
-    {{#afModal class="btn btn-primary" collection="Queries" operation="insert"}}
-    Add a new Query
-    {{/afModal}}
+    {{> quickForm collection="Queries" id="insertQueryForm" type="insert" omitFields="author"}}
 </template>

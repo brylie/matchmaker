@@ -1,3 +1,7 @@
+// Publish all Queries
+Meteor.publish('queries', function () {
+    return Queries.find();
+});
 // Get responses for a given Query
 Meteor.publish('queryResponses', function(queryId) {
     return Responses.find({queryId: queryId});
