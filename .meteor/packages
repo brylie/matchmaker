@@ -12,3 +12,5 @@ accounts-base
 accounts-ui
 accounts-password
 mrt:purecss
+aldeed:autoform
+aldeed:collection2

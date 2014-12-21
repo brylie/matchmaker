@@ -1,5 +1,17 @@
 <template name="queries">
+    {{> addQuery }}
     {{# each queries }}
     {{> query }}
     {{/ each }}
+</template>
+
+<template name="addQuery">
+    {{#autoForm collection="Queries" id="insertQueryForm" type="insert"}}
+    <fieldset>
+        <legend>Add a Query</legend>
+        {{> afQuickField name='query'}}
+        <button type="submit" class="btn btn-primary">Add Query</button>
+    </fieldset>
+
+    {{/ autoForm }}
 </template>
