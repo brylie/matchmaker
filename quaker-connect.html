@@ -8,16 +8,18 @@
 </body>
 
 <template name="hello">
-    <h1>Quaker Connect</h1>
-    <p>Connecting Friends around common interests.</p>
+    <div class="pure-g">
+        <div class="pure-u-1-1">
+            <p>Connecting Friends around common interests.</p>
+        </div>
+    </div>
 </template>
 
 <template name="navbar">
-    <header class="bar bar-nav">
-        <div class="btn pull-right">
-            {{> loginButtons align="right"}}
-        </div>
-
-        <h1 class="title">Quaker Connect</h1>
-    </header>
+    <div class="pure-menu pure-menu-open pure-menu-horizontal">
+        <a href="/" class="pure-menu-heading">Quaker Connect</a>
+        <ul>
+            <li> {{> loginButtons class="pure-button pure-button-primary"}}</li>
+        </ul>
+    </div>
 </template>
