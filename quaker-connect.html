@@ -3,9 +3,12 @@
 </head>
 
 <body>
-    {{> navbar }}
-    {{> hello }}
 </body>
+
+<template name="main">
+    {{> navbar }}
+    {{> yield }}
+</template>
 
 <template name="hello">
     <div class="pure-g">
