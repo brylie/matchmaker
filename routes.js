@@ -4,6 +4,7 @@ Router.route('/', function () {
   });
 });
 
+Router.route('/me');
 
 //// Example route
 //Router.route('/', function () {
