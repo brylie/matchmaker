@@ -19,6 +19,7 @@ p {
     font-size: 200%;
     text-transform: none !important;
 }
+
 @media (min-width: 48em) {
     body {
         width: 62%;
@@ -30,6 +31,9 @@ p {
     .pure-menu-heading {
         font-size: 200%;
         text-transform: none !important;
+    }
+    #submitResponseButton {
+        float: right;
     }
 }
 
