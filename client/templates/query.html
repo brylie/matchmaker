@@ -1,8 +1,19 @@
 <template name="query">
     <h2>{{ query }}</h2>
     {{> addResponse }}
+    {{> showResponses }}
 </template>
 
 <template name="addResponse">
-    {{> quickForm collection="Responses" id="insertResponseForm" type="insert" omitFields="author, toQuery"}}
+    {{> quickForm collection="Responses" id="insertResponseForm" type="insert" omitFields="authorId, queryId"}}
+</template>
+
+<template name="showResponses">
+    {{# each responses }}
+        {{> response }}
+    {{/ each }}
+</template>
+
+<template name="response">
+<p>{{ response }}</p>
 </template>

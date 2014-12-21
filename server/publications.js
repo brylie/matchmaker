@@ -12,3 +12,8 @@ Meteor.publish('queryResponses', function(queryId) {
 //    query = Query.findOne({slug: slug});
 //    return Responses.find({queryId: query._id});
 //});
+
+// Publish responses to a specific query
+Meteor.publish('responses', function () {
+    return Responses.find();
+});

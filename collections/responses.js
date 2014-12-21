@@ -2,21 +2,21 @@ Responses = new Meteor.Collection('responses');
 Responses.attachSchema(new SimpleSchema({
     response: {
         type: String,
-        max: 1000,
+        max: 100,
         label: "Response"
     },
-    author: {
+    authorId: {
         type: String,
         label: "Author",
         autoValue: function () {
             return Meteor.userId();
         }
     },
-    toQuery: {
+    queryId: {
         type: String,
         label: "Query ID",
-        autoValue: function () {
-            return this._id;
+        autoValue: function (query) {
+            return query._id;
         }
     }
 }));
