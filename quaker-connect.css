@@ -1,27 +1,48 @@
 /*
- CSS declarations go here
+CSS declarations go here
 #login-email {
-    max-width: 80%;
+max-width: 80%;
 }
 #login-password {
-    max-width: 70%;
+max-width: 70%;
 }
 
 */
 
 
-/*
-html {
-    font-size: 100%;
-}*/
 
-.hero-tagline {
+html {
+/*
     font-size: 150%;
-    word-wrap: normal;
+    font-family: 'BinzMedium';
+    font-weight: normal;
+    font-style: normal;
+*/
 }
 
+.hero-tagline {
+    font-size: 200%;
+    word-wrap: normal;
+    font-family: 'BinzMedium';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.additional-link {
+    padding:1em !important;
+}
+.pure-menu .pure-menu-heading {
+    font-size: 200%;
+    text-transform: none;
+    word-wrap: normal;
+    font-family: 'BinzMedium';
+    font-weight: normal;
+    font-style: normal;
+}
 @media (min-width: 48em) {
     .hero-tagline {
         font-size: 200%;
     }
 }
+
+
