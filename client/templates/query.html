@@ -5,15 +5,32 @@
 </template>
 
 <template name="addResponse">
-    {{> quickForm collection="Responses" id="insertResponseForm" type="insert" omitFields="authorId, queryId"}}
+    <form>
+        <fieldset>
+            <!-- Textarea -->
+            <div class="form-group">
+                <label class="col-md-12 control-label" for="addResponse">Your Response</label>
+                <div class="col-md-12">
+                    <textarea class="form-control" id="yourResponse" name="yourResponse"></textarea>
+                </div>
+            </div>
+
+            <!-- Button -->
+            <div class="form-group" id="submitResponseButton">
+                <div class="col-md-4">
+                    <button id="submitResponse" name="submitResponse" class="btn btn-success">Submit Response</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
 </template>
 
 <template name="showResponses">
     {{# each responses }}
-        {{> response }}
+    {{> response }}
     {{/ each }}
 </template>
 
 <template name="response">
-<p>{{ response }}</p>
+    <p>{{ response }}</p>
 </template>
