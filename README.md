@@ -1,4 +1,4 @@
-matchmaker
+Quaker Connect
 ==========
 
-Meteor app to make matches :-)
+Quaker Connect is a social tool to help likeminded Quakers meet.
