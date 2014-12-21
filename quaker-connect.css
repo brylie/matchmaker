@@ -14,3 +14,14 @@
 html {
     font-size: 100%;
 }*/
+
+.hero-tagline {
+    font-size: 150%;
+    word-wrap: normal;
+}
+
+@media (min-width: 48em) {
+    .hero-tagline {
+        font-size: 200%;
+    }
+}
