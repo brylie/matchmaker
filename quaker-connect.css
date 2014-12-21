@@ -1,26 +1,9 @@
-/*
-CSS declarations go here
-#login-email {
-max-width: 80%;
-}
-#login-password {
-max-width: 70%;
+body {
+    width: 77%;
+    margin: auto;
 }
 
-*/
-
-
-
-html {
-/*
-    font-size: 150%;
-    font-family: 'BinzMedium';
-    font-weight: normal;
-    font-style: normal;
-*/
-}
-
-.hero-tagline {
+}.hero-tagline {
     font-size: 200%;
     word-wrap: normal;
     font-family: 'BinzMedium';
@@ -40,6 +23,10 @@ html {
     font-style: normal;
 }
 @media (min-width: 48em) {
+    body {
+        width: 62%;
+        margin: auto;
+    }
     .hero-tagline {
         font-size: 200%;
     }
