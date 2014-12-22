@@ -1,5 +1,7 @@
 <template name="queries">
-    {{> addQuery }}
+    {{# if userLoggedIn }}
+        {{> addQuery }}
+    {{/ if }}
     <ul>
         {{# each queries }}
         <li><a href="/query/{{ _id }}">{{ query }}</a></li>

@@ -1,6 +1,8 @@
 <template name="query">
     <h2>{{ query }}</h2>
-    {{> addResponse }}
+    {{# if userLoggedIn }}
+        {{> addResponse }}
+    {{/ if }}
     {{> showResponses }}
 </template>
 
