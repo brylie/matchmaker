@@ -1,0 +1,7 @@
+<template name="queryPage">
+    <h2>{{ query }}</h2>
+    {{# if userLoggedIn }}
+        {{> addResponse }}
+    {{/ if }}
+    {{> showResponses }}
+</template>

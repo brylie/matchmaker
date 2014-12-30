@@ -1,11 +1,3 @@
-<template name="query">
-    <h2>{{ query }}</h2>
-    {{# if userLoggedIn }}
-        {{> addResponse }}
-    {{/ if }}
-    {{> showResponses }}
-</template>
-
 <template name="addResponse">
     <form>
         <fieldset>
@@ -25,14 +17,4 @@
             </div>
         </fieldset>
     </form>
-</template>
-
-<template name="showResponses">
-    {{# each responses }}
-    {{> response }}
-    {{/ each }}
-</template>
-
-<template name="response">
-    <p>{{ response }}</p>
 </template>
