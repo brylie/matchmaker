@@ -1,10 +1,12 @@
 <template name="queries">
     {{# if userLoggedIn }}
-    {{> submitQuery }}
+    <div class="well">
+        {{> submitQuery }}
+    </div>
     {{/ if }}
     <div class="queries">
-            {{# each queries }}
-            {{> queryItem }}
-            {{/ each }}
+        {{# each queries }}
+        {{> queryItem }}
+        {{/ each }}
     </div>
 </template>
