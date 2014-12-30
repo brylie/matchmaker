@@ -1,0 +1,41 @@
+body {
+    width: 77%;
+    margin: auto;
+    background-color: #ddd;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+.hero-tagline {
+    font-size: 150%;
+    word-wrap: normal;
+}
+
+.additional-link {
+    padding:1em !important;
+}
+.pure-menu-heading {
+    font-size: 200%;
+    text-transform: none !important;
+}
+
+@media (min-width: 48em) {
+    body {
+        width: 62%;
+        margin: auto;
+    }
+    .hero-tagline {
+        font-size: 200%;
+    }
+    .pure-menu-heading {
+        font-size: 200%;
+        text-transform: none !important;
+    }
+    #submitResponseButton {
+        float: right;
+    }
+}
+
+
