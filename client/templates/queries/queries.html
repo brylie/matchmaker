@@ -1,16 +1,16 @@
 <template name="queries">
     {{# if userLoggedIn }}
-        {{> submitQuery }}
+    {{> submitQuery }}
     {{/ if }}
-    <ul>
-        {{# each queries }}
-        <li><a href="/query/{{ _id }}">{{ query }}</a></li>
-        {{/ each }}
-    </ul>
+    <div class="queries">
+            {{# each queries }}
+            {{> queryItem }}
+            {{/ each }}
+    </div>
 </template>
 
 <template name="submitQuery">
-<form>
+    <form>
         <fieldset>
             <!-- Textarea -->
             <div class="form-group">
