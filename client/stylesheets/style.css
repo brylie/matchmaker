@@ -21,6 +21,22 @@ p {
     text-transform: none !important;
 }
 
+.query {
+    background-color: #fff;
+    border-radius: 0.5em;
+    box-sizing: border-box;
+    padding: 0.5em;
+    margin: 0.3em;
+}
+
+.query h3 {
+    margin: 0;
+}
+
+.query .discuss {
+    display: inline-block;
+}
+
 @media (min-width: 48em) {
     body {
         width: 62%;
