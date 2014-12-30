@@ -21,7 +21,7 @@ p {
     text-transform: none !important;
 }
 
-.query {
+.query, .response {
     background-color: #fff;
     border-radius: 0.5em;
     box-sizing: border-box;
@@ -50,6 +50,9 @@ p {
 
 #spinner {
     height: 300px;
+}
+#submitResponseButton {
+    margin: 0.3em 0 0 0;
 }
 
 @media (min-width: 48em) {
