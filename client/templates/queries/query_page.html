@@ -2,10 +2,10 @@
     <div class="query">
         <h2>{{ query }}</h2>
     </div>
-    <div class="well">
         {{# if userLoggedIn }}
+        <div class="well">
         {{> addResponse }}
+            </div>
         {{/ if }}
-    </div>
     {{> showResponses }}
 </template>
