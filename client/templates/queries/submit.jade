@@ -1,0 +1,13 @@
+template(name="submitQuery")
+    form
+        fieldset
+            // Textarea
+            .form-group
+                label.col-md-12.control-label(for="yourQuery") Enter a query
+                .col-md-12
+                    textarea.form-control#yourQuery(name="yourQuery")
+
+            // Button
+            .form-group
+                .col-md-4
+                    button.btn.btn-success#submitQueryButton(name="submitQuery") Submit Query
