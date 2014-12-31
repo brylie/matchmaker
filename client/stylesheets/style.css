@@ -3,7 +3,6 @@ body {
     margin: auto;
     background-color: #ddd;
 }
-
 p {
     font-size: 1.25em;
 }
@@ -35,7 +34,6 @@ p {
 .query:after {
     clear: both;
 }
-
 .query .query-content {
     float: left;
 }
@@ -46,11 +44,11 @@ p {
     display: block;
     float: right;
 }
-
 #spinner {
     height: 300px;
 }
-#submitResponseButton, #submitQueryButton {
+#submitQueryButton,
+#submitResponseButton {
     margin: 0.3em 0 0 0;
 }
 
@@ -65,9 +63,6 @@ p {
     .pure-menu-heading {
         font-size: 200%;
         text-transform: none !important;
-    }
-    #submitResponseButton, #submitQueryButton {
-        float: right;
     }
 }
 
