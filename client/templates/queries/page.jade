@@ -1,0 +1,10 @@
+template(name="queryPage")
+    .query
+        h2= query
+        // Show add response form for logged in user
+        if userLoggedIn
+            .well
+                +addResponse
+
+        // Show all responses
+        +showResponses
