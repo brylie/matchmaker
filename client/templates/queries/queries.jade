@@ -1,0 +1,10 @@
+template(name="queries")
+    // Show submit query form if user logged in
+    if userLoggedIn
+        .well
+            +submitQuery
+
+    // Show all queries
+    .queries
+        each queries
+            +queryItem
